@@ -1,3 +1,38 @@
 * {
-    font-family: Verdana,Geneva,sans-serif; 
+    font-family: 'Courier New', monospace; 
+    background: #f0f0f0;
+    color: #303030;
+}
+
+a {
+    color: blueviolet;
+}
+
+h1 {
+    width: auto;
+    text-align: center;
+}
+
+#main-title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main-title h1{
+    display: inline;
+    font-weight: bolder;
+}
+
+.title-color{
+    color: palevioletred;
+}
+
+p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.faq-question {
+    font-size: larger;
+    font-weight: bolder;
 }
