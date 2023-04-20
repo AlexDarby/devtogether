@@ -23,13 +23,38 @@ h1 {
     font-weight: bolder;
 }
 
+@media only screen and (max-width: 600px) {
+    #main-title h1{
+      font-size: larger;
+    }
+}
+
 .title-color{
     color: palevioletred;
 }
 
+#title-icons{
+    font-size: xx-large;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+#title-icons i{
+    color: palevioletred;
+}
+
+
 p {
     width: 80%;
     margin: 0 auto;
+    padding: 10px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+      width: 95%;
+    }
 }
 
 .faq-question {
